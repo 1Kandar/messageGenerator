@@ -1,13 +1,13 @@
 .mainSection{
     width: 50%;
     height: 40rem;
-    background-color: bisque;
+    background: url("/resources/img/tv.png") no-repeat;
+    background-position: center;
+    background-size: cover;
     position: relative;
     margin: 5% 25%;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
+    
+    align-items:center;
     padding: 0 1rem;
     border-radius: 3rem;
 }
@@ -22,29 +22,47 @@
     margin-top: 0;
 }
 
-.messageGenerator{
-    width: 70%;
-    height: 70%;
-    background-color:cornflowerblue;
-    border-radius: 3rem;
-    display: flex;
-    flex-flow: column;
-    
-}
+
 
 #message{
+    position: relative;
+    top: 15rem;
     text-align: center;
-    margin: auto 3rem;
-    color:mistyrose;
+    margin: auto 8rem;
+    margin-right: 20rem;
+    color:black;
 }
 
 button{
-    width: 10rem;
-    height: 3rem;
+    width: 6.5rem;
+    height: 6.5rem;
     border-radius: 5rem;
-    position: relative;
+    position:absolute;
     text-align: center;
-    margin: 1rem  38%;
-    top: auto;
-    bottom: 1rem;
+    margin: auto  auto;
+    right: 2.7rem;
+    display: inline-block;
+    bottom: 8rem;
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size:x-large;
+    background-color:darkgray;
+    border-color:dimgrey;
+    opacity: 0;
+    
+}
+
+.arrow{
+    background-image: url("/resources/img/arrow.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 15rem;
+    height: 25rem;
+    position: absolute;
+    top: 19rem;
+    right: 13rem;
+    text-align:right;
+    font-size: 3rem;
 }
