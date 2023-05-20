@@ -1,7 +1,7 @@
 .mainSection{
     width: 50%;
     height: 40rem;
-    background: url("/resources/img/tv.png") no-repeat;
+    background: url("resources/img/tv.png") no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -54,7 +54,7 @@ button{
 }
 
 .arrow{
-    background-image: url("/resources/img/arrow.png");
+    background-image: url("resources/img/arrow.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
